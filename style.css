@@ -1,0 +1,173 @@
+*{
+    margin: 0px 0px;
+    padding : 0px 0px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+
+}
+body{
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+main{
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    color: hsl(300, 43%, 22%);
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+article{
+    width: 100%;
+    margin:20px 0px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    text-align: center;
+}
+
+.rating_section{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.rating_box{
+    width:100%;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 0px;
+    margin: 10px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.comment_section{
+    width: 100%;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+
+.comment_box{
+    width: 80%;
+    padding: 10%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    
+}
+.client_id{
+    padding-bottom: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+}
+img{
+    border-radius: 100%;
+    width: 50px;
+    margin-right:30px;
+}
+
+.name{
+    font-weight:700;
+}
+.verified{
+    color: hsl(333, 80%, 67%);
+}
+
+@media only screen and (min-width:1000px){
+
+
+    body{
+        height: 100vh;
+  
+    }
+    main{
+        flex-direction: row;
+    }
+
+    .intro{
+        width: 35%;
+    }
+    header{
+        width:100%;
+        font-size:3em;
+        text-align: left;
+        
+    }
+    article{
+        width: 100%;
+        text-align: left;
+        
+    }
+    .rating_section{
+        width: 65%;
+        
+    }
+    .rating_box{
+        width:60%;
+        
+        
+    }
+    .rating_box p {
+        display: inline;
+    }
+    #rating_box2{
+        position:relative;
+        left:10%;
+    }
+    #rating_box3{
+        position:relative;
+        left:20%;
+    }
+    
+    .comment_section{
+        width: 100%;
+        margin-bottom:10%;
+        flex-direction:row;   
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    
+    .comment_box{
+        width: 23%;
+        padding: 4%;
+    }
+
+    #comment_box2{
+        position: relative;
+        top:20px;
+    }
+    
+    #comment_box3{
+        position: relative;
+        top:40px;
+    }
+    
+    
+   
+        
+    
+    
+}
